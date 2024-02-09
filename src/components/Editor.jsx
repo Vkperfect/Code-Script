@@ -22,11 +22,13 @@ export default function Editor(props) {
       <div className="editor-title">
         {displayName}
         <button
+          type="button"
+          className="expand-collapsed-btn"
           onClick={() => {
             console.log("hh");
             setOpen((prevOpen) => !prevOpen);
           }}>
-          OP
+          <FontAwesomeIcon icon={open ? faCompressAlt : faExpandAlt} />
         </button>
       </div>
 
