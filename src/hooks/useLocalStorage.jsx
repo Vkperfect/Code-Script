@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+// eslint-disable-next-line react-refresh/only-export-components
 const PREFIX = "code-script-";
 export default function useLocalStorage(key, initialValue) {
   const prefixedKey = PREFIX + key;
