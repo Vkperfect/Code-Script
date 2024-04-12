@@ -1,5 +1,6 @@
 {
   "name": "code-script",
+  "main": "src/main.jsx",
   "private": true,
   "version": "0.0.0",
   "type": "module",
