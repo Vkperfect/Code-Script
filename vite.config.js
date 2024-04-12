@@ -8,6 +8,24 @@ export default defineConfig({
       input: {
         main: "./src/main.jsx",
       },
+      output: {
+        manualChunks: {
+          react: ["react", "react-dom"],
+          vendor: [
+            "@fortawesome/fontawesome-svg-core",
+            "@fortawesome/free-solid-svg-icons",
+            "@fortawesome/react-fontawesome",
+          ],
+        },
+      },
     },
+  },
+  resolve: {
+    alias: {
+      "@": "/src",
+    },
+  },
+  server: {
+    port: 3000,
   },
 });
