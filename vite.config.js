@@ -10,14 +10,7 @@ export default defineConfig({
         main: "./src/main.jsx",
       },
       output: {
-        manualChunks: {
-          react: ["react", "react-dom"],
-          vendor: [
-            "@fortawesome/fontawesome-svg-core",
-            "@fortawesome/free-solid-svg-icons",
-            "@fortawesome/react-fontawesome",
-          ],
-        },
+        entryFileNames: "[name].[hash].js",
       },
     },
   },
