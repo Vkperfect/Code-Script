@@ -7,29 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Node.js
-node_modules/
-package-lock.json
-yarn.lock
-
-# Vite
-dist/
-.eslintcache
+node_modules
+dist
+dist-ssr
+*.local
 
 # Editor directories and files
-.vscode/
+.vscode/*
 !.vscode/extensions.json
-.idea/
+.idea
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
-
-# Temporary files
-*.local
+*.sw?
