@@ -7,9 +7,10 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: "./src/main.jsx",
+        main: "./src/main",
       },
       output: {
+        format: "es",
         entryFileNames: "[name].[hash].js",
       },
     },
