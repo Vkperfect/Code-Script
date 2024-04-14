@@ -1,10 +1,10 @@
 
-# React + Vite
+- URL: https://code-script.onrender.com/Code-Script/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  
+# Code-Script
+- A website build using react.js where you can write code for HTML, CSS and JavaScripts.
+- You can write frontend code and also able to see the output.
+- Data get save on localStorage and on refresh same data will show up
+- Take a look by visiting URL https://code-script.onrender.com/Code-Script/
 
